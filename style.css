@@ -39,8 +39,6 @@ body{
     color: white; 
 }
 
-.content-left{}
-
 .head{
     margin-top: 1px;
     margin-bottom: 15px;
@@ -48,26 +46,19 @@ body{
 } 
 
 
-
-.hero-img{
-    display: flex;
-    justify-content: right;
-    width: 600px;
-    height: auto;
-}
 ul{
     display: flex;
     list-style-type: none;
 }
 
-ul li a{
-    padding:0 20px;
+.nav-ul li a {
+    padding: 0 20px;
     text-decoration: none;
     color: white;
 }
 
 .contact-btn{
-    padding: 10px 20px;
+    padding: 15px 25px !important;
     background-color: black;
     border: 1px solid white;
     
@@ -94,10 +85,15 @@ ul li a{
 }
 
 
-.right-arrow {
+/*.right-arrow {
     margin-left: 5px;
     height: 20px;
     width: 20px;
+    
+} */
+
+.arrow-right2 {
+    
 }
 
 .hero-img{
@@ -123,6 +119,98 @@ ul li a{
     }
 }
 
+    /*2nd Part*/
+
+.header-hero-wrap2 {
+    background-color: #F1F1F1;
+}
 
 
+.hero-content2 {
+    padding-top: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    color: black;
+}
+
+.head2 {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 500%;
+}
+
+.hero-img2 {
+    height: 650px;
+    width: 650px;
+}
+
+.cta2 {
+    margin-top: 25px;
+    background-color: #2E2E2E;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #242424;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*.right-arrow2 {
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}*/
+
+.arrow-right {
+    margin-left: 5px;
+}
+.cta2:hover {
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 1230px) {
+    .hero-content2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-img2 {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-img3 {
+        height: 400px;
+        width: 300px;
+    }
+}
+
+    /*3rd part*/
+
+    
+.hero-content3 {
+    padding-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#F1F1F1 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.head3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 400%; 
+}
 
