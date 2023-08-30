@@ -84,18 +84,6 @@ ul{
     border: 1px solid black;
 }
 
-
-/*.right-arrow {
-    margin-left: 5px;
-    height: 20px;
-    width: 20px;
-    
-} */
-
-.arrow-right2 {
-    
-}
-
 .hero-img{
     height: 600px;
     width: 600px;
@@ -162,19 +150,230 @@ ul{
     cursor: pointer;
 }
 
-/*.right-arrow2 {
-    margin-left: 5px;
-    height: 20px;
-    width: 20px;
-    color: white;
-}*/
-
 .arrow-right {
     margin-left: 5px;
 }
 .cta2:hover {
     border: 1px solid black;
 }
+
+
+
+    /*3rd part*/
+
+    
+.hero-content3 {
+  /*  padding-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;*/
+    background-color:#F1F1F1 ;
+     display: flex;
+    justify-content: space-between; 
+}
+
+
+.head3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 600%; 
+    font-weight: 500;
+}
+    
+
+section {
+    padding-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #F1F1F1;
+}
+
+.our-services {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.talent-img {
+    padding-top: 80px;
+    padding-right: 50%;
+    width: 300px;
+    height: 200px; 
+}
+
+.talent {
+    padding-top: 100px;
+    padding-right: 30%;
+    font-size: 100%;
+}
+
+.talent-representation h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.talent-representation {
+    border-right: 0.1px solid black;
+}
+
+.media-img {
+    padding-top: 80px;
+    padding-right: 50%;
+    width: 300px;
+    height: 200px; 
+}
+
+
+.media {
+    padding-top: 100px;
+    padding-right: 30%;
+    font-size: 100%;
+}
+
+.media-management h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.media-management {
+    border-right: 0.1px solid black;
+}
+
+.video-img {
+    padding-top: 80px;
+    padding-right: 50%;
+    width: 300px;
+    height: 200px; 
+}
+
+
+.video { 
+    padding-top: 100px;
+    padding-right: 30%;
+    font-size: 100%;
+}
+
+.video-production h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.video-production {
+    border-right: 0.1px solid black;
+}
+
+.product-img {
+    padding-top: 80px;
+    padding-right: 50%; 
+    width: 300px;
+    height: 200px; 
+}
+
+
+.product {
+    padding-top: 100px;
+    padding-right: 30%;
+    font-size: 100%;
+}
+
+.product-devlopment h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.product-devlopment {
+    border-right: 0.1px solid black;
+}
+
+
+/* 4th part */
+
+.hero-header-3 {
+    padding-top: 8px;
+    background-color: #F1F1F1;
+}
+
+.xyz-summit {
+    padding-top: 180px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.xyz-img {
+    width: 550px;
+    height: 500px;
+}
+.right-xyz {
+    width: 462px;
+}
+.head-xyz {
+    font-size: 80px;
+}
+
+.paragraph-xyz {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+/* 5th part */
+
+.head-5 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 200px;
+    background-color: #2D2D2D;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    border-radius: 20px;
+}
+
+.gang-img {
+    padding-right: 80px;
+    height: 400px;
+    width: 350px;
+}
+
+.join-the-gang {
+    margin-top: 30px;
+    color: white;
+    font-size: 60px;
+}
+
+.gang-para {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 80;
+    color: white;
+}
+
+.cta3 {
+    margin-top: 25px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.cta:hover3 {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.explore {
+    margin: 2px;
+}
+
+
+/* mobile responsive */
 
 
 @media screen and (max-width: 1230px) {
@@ -186,6 +385,28 @@ ul{
         height: 400px;
         width: 400px;
     }
+    .our-services {
+        flex-direction: column;
+    }
+    .video-img, .media-img, .product-img, .talent-img {
+        width: auto;
+    }
+    .talent-representation, .product-devlopment, .media-management, .video-production {
+        border-right: 0;
+    }
+    /* xyz summit */
+
+    .xyz-summit {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* 5th part */
+
+    .head-5 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -195,22 +416,16 @@ ul{
     }
 }
 
-    /*3rd part*/
-
-    
-.hero-content3 {
-    padding-top: 80px;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color:#F1F1F1 ;
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width: 1052px) {
+    .gang-img {
+        width: 100%;
+        padding-right: 0;
+    }
 }
 
-
-.head3 {
-    margin-top: 10px;
-    margin-bottom: 15px;
-    font-size: 400%; 
+@media screen and (max-width: 800px) {
+    .head-5 {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }
-
